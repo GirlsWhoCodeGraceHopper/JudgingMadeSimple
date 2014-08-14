@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/jquery.mobile-1.3.1.min.js"></script>
 	<title> debAPP </title>
-		<h1> debAPP </h1>
+		<div align="center"><h1><font color="white" size=60>debAPP</font></h1></div>
 </head>
 		
-	<body>
+	<body bgcolor="#000047">
 	
-			<p><font color="white" size=14><div align="left">Judge:<input type="text" name="judge" id="judge"><br></p>
-			<p><font color="white" size=14><div align="left">Pro
+			
+			
+				<div align="left">
+				<p><font size="3" color="white" >Judge: </font><input type="text" name="judge" id="judge"></p>
+				</div>
+			<p><font color="white" size="3">
+			<div align="left">Pro</div>
 			<form>
+			Code: <input type="text" name="proCode" id="proCode"><br>
 			Speaker 1 Name: <input type="text" name="pro1" id="pro1"><br>
 			Speaker 1 Comments: <input type="text" name="procom1" style="width: 400px; height: 70px" id="procom1"><br>
 			Speaker 2 Name: <input type="text" name="pro2"><br>
 			Speaker 2 Comments: <input type="text" name="procom2" style="width: 400px; height: 70px" id="procom2"><br>
+			Score: <input type="text" name="proscore" id="proscore"><br>
 			</form></div></p>
-			<p><div align="left">Con<form>
-			Speaker 1 Name: <input type="text" name="con1"><br>
+			<p><font size="3"><div align="left">Con
+			<form>
+			Code: <input type="text" name="conCode" id="conCode"><br>
+			Speaker 1 Name: <input type="text"name="con1"><br>
 			Speaker 1 Comments: <input type="text" name="concom1" style="width: 400px; height: 70px" id="concom1"><br>
 			Speaker 2 Name: <input type="text" name="con2"><br>
-			Speaker 2 Comments: <input type="text" name="concom2" style="width: 400px; height: 70px" id="concom2">
+			Speaker 2 Comments: <input type="text" name="concom2" style="width: 400px; height: 70px" id="concom2"><br>
+			Score: <input type="text" name="conscore" id="conscore"><br>
 			</form></div></p>
+			<p><div align="left">Winner:</div></p><form action=""><input type="radio" name="team" value="pro" id="proWin">Pro<br>
+			<input type="radio" name="team" value="con" id="conWin">Con<br>
+			Reason for Winning: <input type="text" name="winReason" style="width: 700px; height: 100px" id="winReason"><br>
+			</form>
+			
+			
 	</body>
 	<style>
-	body{
-		background-color: #000047;
-	}
-	h1{
+	/*h1{
 		font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 		font-size: 400%;
 		text-align:center;
@@ -34,13 +50,8 @@
 	p{
 		font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 		text-align:center;
-		font-size: 200%;
+		font-size: 50%;
 		color: white;
 	}
-	form { 
-		font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-		text-align:left;
-		font-size: 80%;
-		color: white;
-	}
-	</style>
+
+	*/</style>
