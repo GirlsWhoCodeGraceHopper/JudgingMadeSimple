@@ -8,15 +8,13 @@
 </head>
 		
 	<body bgcolor="#000047">
-	
-			
-			
 				<div align="left">
 				<p><font size="3" color="white" >Judge: </font><input type="text" name="judge" id="judge"></p>
 				</div>
 			<p><font color="white" size="3">
 			<div align="left">Pro</div>
 			<form>
+			<div style="float:left;">
 			Code: <input type="text" name="proCode" id="proCode"><br>
 			Speaker 1 Name: <input type="text" name="pro1" id="pro1"><br>
 			Speaker 1 Comments: <input type="text" name="procom1" style="width: 400px; height: 70px" id="procom1"><br>
@@ -24,8 +22,9 @@
 			Speaker 2 Comments: <input type="text" name="procom2" style="width: 400px; height: 70px" id="procom2"><br>
 			Score: <input type="text" name="proscore" id="proscore"><br>
 			</form></div></p>
-			<p><font size="3"><div align="left">Con
+			<p><font size="3"><div align="right">Con
 			<form>
+			<div style="float:right;">
 			Code: <input type="text" name="conCode" id="conCode"><br>
 			Speaker 1 Name: <input type="text"name="con1"><br>
 			Speaker 1 Comments: <input type="text" name="concom1" style="width: 400px; height: 70px" id="concom1"><br>
@@ -33,12 +32,12 @@
 			Speaker 2 Comments: <input type="text" name="concom2" style="width: 400px; height: 70px" id="concom2"><br>
 			Score: <input type="text" name="conscore" id="conscore"><br>
 			</form></div></p>
-			<p><div align="left">Winner:</div></p><form action=""><input type="radio" name="team" value="pro" id="proWin">Pro<br>
+			<p><div align="left"><div style="clear:both;text-align:left;">Winner:</p><form action=""><input type="radio" name="team" value="pro" id="proWin">Pro<br>
 			<input type="radio" name="team" value="con" id="conWin">Con<br>
 			Reason for Winning: <input type="text" name="winReason" style="width: 700px; height: 100px" id="winReason"><br>
 			</form>
 			
-			
+			<button type = "button" id="submitButton" align="center-right"> Submit </button></div>
 	</body>
 	<style>
 	/*h1{
