@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/jquery.mobile-1.3.1.min.js"></script>
+	<title> debAPP </title>
+		<div align="center"><h1><font color="white" size=60>debAPP</font></h1></div>
+</head>
+		
+	<body bgcolor="#000047">
+				<div align="left">
+				<p><font size="3" color="white" >Judge: </font><input type="text" name="judge" id="judge"></p>
+				</div>
+			<p><font color="white" size="3">
+			<div align="left">Pro</div>
+			<form>
+			<div style="float:left;">
+			Code: <input type="text" name="proCode" id="proCode"><br>
+			Speaker 1 Name: <input type="text" name="pro1" id="pro1"><br>
+			Speaker 1 Comments: <textarea name="procom1" rows="5" cols="40" id="procom1"></textarea><br>
+			Speaker 2 Name: <input type="text" name="pro2"><br>
+			Speaker 2 Comments: <textarea name="procom2" rows="5" cols="40" id="procom2"></textarea><br>
+			Score: <input type="text" name="proscore" id="proscore"><br>
+			</form></div></p>
+			<p><font size="3"><div align="right">Con
+			<form>
+			<div style="float:right;">
+			Code: <input type="text" name="conCode" id="conCode"><br>
+			Speaker 1 Name: <input type="text"name="con1"><br>
+			Speaker 1 Comments: <textarea name="concom1" rows="5" cols="40" id="concom1"></textarea><br>
+			Speaker 2 Name: <input type="text" name="con2"><br>
+			Speaker 2 Comments: <textarea name="concom2" rows="5" cols="40" id="concom2"></textarea><br>
+			Score: <input type="text" name="conscore" id="conscore"><br>
+			</form></div></p>
+			<p><div align="left"><div style="clear:both;text-align:left;">Winner:</p><form action=""><input type="radio" name="team" value="pro" id="proWin">Pro<br>
+			<input type="radio" name="team" value="con" id="conWin">Con<br>
+			Reason for Winning: <br><textarea name="winReason" rows="8" cols="100" id="winReason"></textarea><br><br>
+			</form>
+			
+			<button type = "button" id="submitButton" align="center-right" onclick="window.location.href='debApp_HomePage.html'"> Submit </button></div>
+	</body>
+	<style>
+	/*h1{
+		font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+		font-size: 400%;
+		text-align:center;
+		color: white;
+		}
+	p{
+		font-family:"Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+		text-align:center;
+		font-size: 50%;
+		color: white;
+	}
+
+	*/</style>
